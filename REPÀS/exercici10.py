@@ -19,9 +19,11 @@ while not adivinado:
     if intento == numero_secreto:
         adivinado = True
         print(f"¡Felicidades! Adivinaste en {intentos} intentos.")
+        
     else:
         # Indicar si es más pequeño o más grande
         if intento < numero_secreto:
             print("El numero es más grande. Intenta de nuevo.")
+
         else:
             print("El numero es más pequeño. Intenta de nuevo.")
